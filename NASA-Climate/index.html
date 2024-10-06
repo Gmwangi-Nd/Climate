@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Kenya Connect</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-custom bg-light">
+        <div class="container-fluid">
+                <img src="Images\logo.jpeg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+                <a class="navbar-brand" href="#">Climate Kenya Connect</a>
+              </a>
+            <i class="bi bi-telephone">+254712345678</i>
+            <i class="bi bi-envelope">climate.kenya@connect.org</i>
+            <i class="bi bi-geo-alt-fill">Nairobi, Kenya</i>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+            </div>
+        </div>
+    </nav>
+
+   
+   
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Join Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    
+      <div class="content-container">
+        <div class="header-img">
+            <img src="Images\Home page.jpg" alt="Header image">
+            <div class="header-overlay">
+            <h2>Connecting Kenyans to Climate Data for a Sustainable Future</h2>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="second-container my-5">
+        
+            <div class="col-md-6 mx-6 map-section">
+                    <h3 class="text-center">Kenya GIS Map from ArcGIS</h3>
+                    <!-- Map Embed -->
+                    <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><small><a href="//gspace.maps.arcgis.com/apps/Embed/index.html?webmap=28e2e118a083426eaa273a6e11983089&extent=4.9711,-22.267,91.1918,18.5648&home=true&zoom=true&scale=true&search=true&searchextent=true&details=true&legend=true&active_panel=details&basemap_gallery=true&disable_scroll=true&theme=light" style="color:#0000FF;text-align:left" target="_blank">View larger map</a></small><br><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Kenya GIS map" src="//gspace.maps.arcgis.com/apps/Embed/index.html?webmap=28e2e118a083426eaa273a6e11983089&extent=4.9711,-22.267,91.1918,18.5648&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legend=true&active_panel=details&basemap_gallery=true&disable_scroll=true&theme=light"></iframe></div>
+                </div>
+            
+            <div class="col-md-6 visual-section">
+                <img src="Images\Visuals.png" alt="Emission Data Visual">
+                <p>Click a region to see the emission data</p>
+            </div>
+        </div>
+    </div>
+
+   <br>
+    <div class="container my-5">
+        <h3 class="text-center">Personal Stories of Climate Impact</h3>
+        <div id="storyCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner story-carousel">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="story-card">
+                                <img src="Images\Drought.jpg" alt="Story 1">
+                                <p>A farmer shares how drought impacted their crops.</p>
+                                <a href="#" class="btn btn-primary">Read Full Story</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="story-card">
+                                <img src="Images\Flooding.jpeg" alt="Story 2">
+                                <p>Rising temperatures and their effect on livestock.</p>
+                                <a href="#" class="btn btn-primary">Read Full Story</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="story-card">
+                                <img src="Images\Rising Level.jpg" alt="Story 3">
+                                <p>A fisherman's tale of rising ocean levels.</p>
+                                <a href="#" class="btn btn-primary">Read Full Story</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="story-card">
+                                <img src="Images\Emission.jpg" alt="Story 4">
+                                <p>Flooding impacts and how communities rebuilt.</p>
+                                <a href="#" class="btn btn-primary">Read Full Story</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#storyCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#storyCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+   
+    <div class="container my-5">
+        <h3 class="text-center">Our Partners</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="partner-card">
+                    <img src="Images\karlo.png" alt="KALRO logo">
+                    <p>Kenya Agricultural and Livestock Research Organization</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="partner-card">
+                    <img src="Images\Nasa.jpeg" alt="Nasa logo">
+                    <p>NASA TECHNOLOGY</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="partner-card">
+                    <img src="Images\KMD.png" alt="KMD Logo">
+                    <p>Kenya Metrological Department</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="partner-card">
+                    <img src="Images\Redcross.jpeg" alt="Red Cross logo">
+                    <p>Kenya Red Cross4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About</h5>
+                    <p>Climate Kenya Connect is a platform using NASA data to help Kenyan farmers and institutions understand the implications of carbon emissions.</p>
+                </div>
+                <div class="col-md-4 vertical-line">
+                    <h5>Navigation</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Social Media</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-twitter"></i> Twitter</a>
+                        <a href="#"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>Contact us: <a href="mailto:info@climatekenya.org">info@climatekenya.org</a></p>
+                <p>&copy; 2024 Climate Kenya Connect. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
